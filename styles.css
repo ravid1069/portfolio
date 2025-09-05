@@ -136,17 +136,21 @@
     overflow: hidden;
   }
   
-  .hero-bg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: url('https://user-gen-media-assets.s3.amazonaws.com/gpt4o_images/710a1c1d-f267-4b61-9cf1-da595f8b4a85.png') center center;
-    background-size: cover;
-    opacity: 0.1;
-    z-index: -1;
-  }
+  /* Update the hero background image URL in your existing CSS */
+.hero-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('https://user-gen-media-assets.s3.amazonaws.com/gpt4o_images/65dee204-e6cf-4595-b484-5b2fdade612f.png') center center;
+  background-size: cover;
+  opacity: 0.1;
+  z-index: -1;
+}
+
+/* The rest of the CSS remains the same */
+
   
   .hero-bg::after {
     content: '';
